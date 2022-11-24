@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.footerButton {
+    color: #666666;
+    font-family: 'Secular One', sans-serif;
+    font-size: 0.8vw;
+    width: 100%;
+
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+
+    border: none;
+    cursor: pointer;
+
+    margin-bottom: 5%;
+
+    transition: all 0.4s;
+
+    &:hover {
+        color: #57B846;
+    }
+}
