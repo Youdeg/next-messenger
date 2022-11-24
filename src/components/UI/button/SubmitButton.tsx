@@ -4,6 +4,7 @@ import classes from './styles/SubmitButton.module.scss';
 interface SubmitButtonProps {
     children: ReactNode;
     style: object;
+    onClick: (e: React.MouseEvent) => void;
 }
 
 const SubmitButton = (props: SubmitButtonProps) => {
